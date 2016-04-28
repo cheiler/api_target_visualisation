@@ -32,6 +32,6 @@ $process['received']['time'] = date(DATE_ATOM, time());
 
 $write = json_encode($process);
         
-file_put_contents("lastUsed.json", $write);
+file_put_contents("read/lastUsed.json", $write);
 
 ?>
